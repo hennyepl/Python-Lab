@@ -1,5 +1,5 @@
-number = int(input("Please enter a number: "))
-
-for number in range(1, number):
-    if (number %2 ==0):
-        print(number)
+number_of_student = int(input("Enter number of students: "))
+name_of_student = []
+for i in range(number_of_student):
+    name_of_student[i] = input("Enter name of student: ")
+print(name_of_student)
