@@ -35,4 +35,7 @@ def main():
             break
         else:
             print("Invalid choice")
+# end of main
+# call main function
+main()            
 

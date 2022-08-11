@@ -1,8 +1,7 @@
 # This file contains the source code for the implementation of 
 # binary search tree.
 
-# class 
-from requests import delete
+# class BinarySearchTree:
 
 
 class Node:
