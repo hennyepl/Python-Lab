@@ -10,6 +10,11 @@ class Node:
         self.left = None
         self.right = None
 
+    # intailize the tree
+    def binary_search_tree(self, data):
+        self.insert(data)
+            
+
     def insert(self, data):
         if self.data:
             if data < self.data:
@@ -170,3 +175,6 @@ class Node:
                 yield from self.right.traverse_level_reverse_recursive()
             if self.left:
                 yield from self.left.traverse_level_reverse_recursive()
+
+# end of class BinarySearchTree
+

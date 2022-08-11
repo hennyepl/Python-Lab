@@ -7,35 +7,31 @@ import source
 # menu 
 
 def main():
-    tree = source.BinarySearchTree()
+    bst = source.BinarySearchTree()
     while True:
         print("""
         1. Insert
         2. Delete
         3. Find
-        4. Print Tree
+        4. Print
         5. Exit
         """)
         choice = int(input("Enter your choice: "))
         if choice == 1:
             data = int(input("Enter data: "))
-            tree.insert(data)
+            bst.insert(data)
         elif choice == 2:
             data = int(input("Enter data: "))
-            tree.delete(data)
+            bst.delete(data)
         elif choice == 3:
             data = int(input("Enter data: "))
-            if tree.find(data):
+            if bst.find(data):
                 print("Found")
             else:
                 print("Not found")
         elif choice == 4:
-            tree.printTree()
+            bst.print()
         elif choice == 5:
             break
         else:
             print("Invalid choice")
-# end of main
-# call main function
-main()            
-
