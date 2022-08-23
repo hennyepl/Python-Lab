@@ -21,4 +21,7 @@ def main():
     else:
         print("Not found")
 
-
+# print out
+if __name__ == "__main__":
+    main()
+    
